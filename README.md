@@ -1,21 +1,24 @@
 # sober-sprout
-SoberSprout is a personal habit recovery platform designed to help individuals break harmful habits through daily streak tracking, craving support, reflective journaling, and meaningful progress insights.
+SoberSprout is a personal habit recovery IOS app designed to help individuals break harmful habits through daily streak tracking, craving support, reflective journaling, and meaningful progress insights.
 
 This repository contains the backend microservices that power SoberSprout.
 The backend is being built using Spring Boot, REST APIs, and a microservices architecture, with plans for cloud deployment on AWS.
 
-Although only the backend is being developed at the moment, SoberSprout is ultimately intended to become a full-featured iOS mobile application, where users will:
+🌿 Core Concept
+SoberSprout uses a growth-based metaphor to help users visualize progress.
+  • As users stay “clean,” complete craving countdowns, and reflect on their journey, their personal garden grows:
+  • Every clean day “waters” the garden
+  • Completing the 5-minute craving challenge grows a sprout
+  • Consistency unlocks new plants
+  • Reflection and journaling contribute to environmental health (sunlight, soil, etc.)
+  • Lapses may wilt leaves, signaling the need for care rather than shame
 
-Press a quick “I’m having a craving” button
+This garden acts as a gentle, visual representation of healing and progress, rather than punishment or guilt.
 
-Receive structured 5-minute coping support
-
-Track daily streaks and habit goals
-
-Log reflections and moods
-
-See personalized progress insights
-
-Manage multiple habits on their recovery journey
-
-The backend services in this repository will serve as the core API that the iOS app will communicate with.
+ Future iOS App Features
+  • One-tap “I’m having a craving” support
+  • A 5-minute coping countdown timer, where reflective activities will be done
+  • Habit & streak tracking
+  • Push notifications for reflection reminders and coping prompts
+  • Profile & habit customization
+  • A beautiful, interactive Garden View that grows with the user’s recovery
